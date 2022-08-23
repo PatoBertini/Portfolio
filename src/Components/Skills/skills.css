@@ -1,0 +1,67 @@
+/* skills section global */
+.skills {
+  margin-top: 50px;
+  padding: 50px 0 0;
+  position: relative;
+}
+
+/* carousel section */
+.skill-logo {
+  height: 350px;
+  width: auto;
+  font-size: 11rem;
+  animation-fill-mode: forwards;
+}
+
+.skill-logo h5 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.slogo {
+  cursor: pointer;
+  display: inline-block;
+  animation-fill-mode: forwards;
+}
+
+.slogo:hover {
+  animation: swing 1s ;
+ 
+}
+
+
+.skills-icon {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.skills-icon h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+
+}
+
+.skills-icon p {
+  color: aliceblue;
+  font-size: 2.4rem;
+  letter-spacing: 1.2px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.skills .slider {
+  width: 81%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fondo-1 {
+  top: -40%;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  z-index: -4;
+}

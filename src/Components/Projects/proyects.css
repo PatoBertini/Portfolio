@@ -1,0 +1,227 @@
+.img-proyecto {
+    width: 100%;
+    height: 100%;
+}
+
+.proyectos {
+    padding: 15px 5%;
+    position: relative;
+    background-color: transparent;
+}
+
+.proyectos h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.proyectos p {
+    color: #b8b8b8;
+    font-size: 1.6rem;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 60%;
+}
+
+/* Estilos al contenedor de los tab's */
+.proyectos .nav.nav-pills {
+    width: 72%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+}
+
+.proyectos .nav.nav-pills .nav-item {
+    width: 33.33%;
+}
+
+.proyectos .nav.nav-pills .nav-link{
+    background-color: transparent;
+    border-radius: 0;
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 1.3rem;
+    letter-spacing: 00.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+}
+
+.proyectos .nav.nav-pills .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #aa367c -6%, #4a2fbd 111%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3 ease-in-out;
+}
+
+.proyectos .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+
+/* Contenedor de la card proyecto */
+.proyecto-imagen {
+    position: relative;
+    height: 240px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 25px 0;
+}
+
+/* Pantalla de color que baja en la card */
+.proyecto-imagen::before {
+    content: "";
+    background: linear-gradient(90.21deg, #b2297b -5.91%, #331b9b 111.58%);
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    transition: 0.4s ease-in-out;
+}
+
+/* Al hacer hover le ponemos heigt 100% */
+.proyecto-imagen:hover::before {
+    height: 100%;
+}
+
+/* texto del proyecto, importante el opacity */
+.texto-proyecto {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+    
+}
+
+.proyecto-imagen:hover .texto-proyecto {
+    top: 50%;
+    opacity: 1;
+}
+
+.texto-proyecto h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+}
+
+.texto-proyecto span {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 00.8px;
+}
+
+.imagenFondo {
+    top: 20%;
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    right: 0;
+    z-index: -4;
+}
+
+.proyecto-imagen button {
+   border-radius: 25px;
+   width: 100px;
+   margin-top: 13px;
+}
+.proyecto-imagen button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* From uiverse.io by @satyamchaudharydev */
+/* === removing default button style ===*/
+.b-conteiner {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin: 0;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #920c79;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
+  .text-info {
+    gap: 20px;
+    margin-top: 30px;
+    border: grey 1px solid;
+    padding: 2rem;
+    border-radius: 25px;
+    
+  }
+
+  .text-info h2 {
+    letter-spacing: 1px;
+    margin: 10px 0;
+    color: white;
+    animation: backInRight 2s;
+  }
+
+ 
+
+
+  .text-info h5 {
+    font-family: 'montserrat';
+    line-height: 2rem;
+    letter-spacing: 1px;
+    text-align: start;
+    color: white;
+    animation: fadeInUpBig 3s;
+    font-size: 1.4rem;
+  }

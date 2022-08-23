@@ -1,0 +1,120 @@
+/* Banner div */
+.banner {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url("../../Assets/Images/galaxy.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Banner Welcome */
+.banner .welcome {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.text-animate {
+  display: inline-block;
+  opacity: 1;
+  font-size: 40px;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin: 27px 0;
+ 
+}
+
+.text-animate:hover {
+  animation: heartBeat 1s;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  -webkit-background-clip: text;
+  color: transparent;  
+  
+}
+
+.wrap {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin: 27px 0;
+  display: block;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  -webkit-background-clip: text;
+  color: transparent;  
+}
+
+.banner p {
+  color: #b8b8b8;
+  font-size: 1.7rem;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 85%;
+}
+
+.banner button {
+  color: #fff;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+
+.banner button:hover svg {
+  margin-left: 25px;
+}
+
+.banner img {
+  animation: updown 3s linear infinite;
+}
+
+.banner .hero {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(-40px);
+  }
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}

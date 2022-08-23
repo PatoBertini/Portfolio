@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 30px;
+  
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+}
+
+.social-icon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 80px;
+  top: 35%;
+}
+
+.social-icon a {
+  width: 135px;
+  height: 135px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin: 0 10px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.social-icon a::before {
+  content: "";
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+.social-icon a img {
+  width: 40%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+.social-icon a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+    hue-rotate(346deg) brightness(95%) contrast(86%);
+}
