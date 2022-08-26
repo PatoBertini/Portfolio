@@ -1,5 +1,4 @@
 import React from "react";
-import { FiArrowRightCircle } from "react-icons/fi";
 import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import hero from "../../Assets/Images/pc.png";
@@ -63,11 +62,7 @@ const Banner = () => {
               A junior Front-end Developer living in Valencia, Spain who is
               searching his first job.
             </p>
-            <button href="#form" 
-            
-            >
-              Contact Me <FiArrowRightCircle size={25} />
-            </button>
+           
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={hero} className="hero" alt="Headder Img" />

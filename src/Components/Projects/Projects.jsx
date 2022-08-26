@@ -3,12 +3,13 @@ import p1 from "../../Assets/Images/p1.png";
 import p2 from "../../Assets/Images/p2.png";
 import p3 from "../../Assets/Images/p3.png";
 import p4 from "../../Assets/Images/p4.png";
-import p5 from "../../Assets/Images/p5.png";
+import p5 from "../../Assets/Images/p7.png";
 import p6 from "../../Assets/Images/p6.png";
 import AboutMe from "./AboutMe";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import fondoImg from "../../Assets/Images/color-sharp2.png";
+import Documento from '../../PatricioBertini.pdf'
 
 const Projects = () => {
   const proyectos = [
@@ -31,24 +32,27 @@ const Projects = () => {
       description1: "React starting proyect",
       description2: "July 2022",
       img: p4,
+      link: 'https://fluffy-torte-5d78ca.netlify.app/'
     },
     {
       title: "Checklist",
       description1: "React starting proyect",
       description2: "August 2022",
       img: p3,
+      link: 'https://celadon-stroopwafel-bedde1.netlify.app/'
     },
     {
       title: "Ecommerce Shop",
       description1: "React Js",
-      description2: "In progress",
       img: p5,
+      inpro : "Work In Progress"
     },
     {
       title: "Personal Landing Page",
       description1: "React Js",
-      description2: "In Progress",
       img: p6,
+      inpro : "Work In Progress"
+
     },
   ];
 
@@ -84,12 +88,12 @@ const Projects = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="segundo">
                   <div className="b-conteiner">
-                    <button data-text="Awesome" className="button" download="PatricioBertini" href="PatricioBertini.pdf" >
+                    <a data-text="Awesome" className="button"  href={Documento} download >
                       <span className="actual-text">&nbsp;Download&nbsp;</span>
                       <span className="hover-text" aria-hidden="true">
                         &nbsp;Download&nbsp;
                       </span>
-                    </button>
+                    </a>
                   </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="tercero">

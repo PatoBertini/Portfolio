@@ -2,12 +2,13 @@ import React from 'react'
 import { Col } from 'react-bootstrap'
 import './proyects.css'
 
-const ProjectCard = ({title, description1, description2, img, link}) => {
+const ProjectCard = ({title, description1, description2, img, link, inpro}) => {
   return (
     <Col sm={6} md={4}>
-        <div className="proyecto-imagen">
+        <div className="proyecto-imagen ">
             <img src={img} alt="" className='img-proyecto' />
-            <div className="texto-proyecto">
+            <div className="texto-proyecto ">
+                <h1>{inpro}</h1>
                 <h4>{title}</h4>
                 <span>{description1}</span> <br />
                 <span>{description2}</span> <br />
