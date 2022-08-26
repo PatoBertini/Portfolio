@@ -9,7 +9,7 @@ import AboutMe from "./AboutMe";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import fondoImg from "../../Assets/Images/color-sharp2.png";
-import Documento from '../../PatricioBertini.pdf'
+import Documento from '../../PatricioBertiniCV.pdf'
 
 const Projects = () => {
   const proyectos = [

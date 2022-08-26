@@ -57,7 +57,7 @@ const Skills = () => {
               >
                 <div className="skill-logo">
                   <FontAwesomeIcon className="slogo" icon={faReact} color="#5ED4F4" />
-                  <h5>React</h5>
+                  <h5>React Js</h5>
                 </div>
                 <div className="skill-logo">
                   <FontAwesomeIcon className="slogo" icon={faGithub} color="#ffffff" />
