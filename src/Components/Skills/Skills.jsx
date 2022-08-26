@@ -45,9 +45,9 @@ const Skills = () => {
         <Row>
           <Col>
             <div className="skills-icon">
-              <h2>Frontend Skills</h2>
+              <h2>Front-end Skills</h2>
               <p>
-                This are my Front-End skills i have been working on.
+                These are my Front-End skills.
               </p>
               <Carousel
                 responsive={responsive}

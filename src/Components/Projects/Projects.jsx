@@ -63,7 +63,7 @@ const Projects = () => {
           <Col>
             <h2> Proyects</h2>
             <p>
-              This are some of my proyects i have been working on. Hope you
+              These are some of my proyects I have been working on. Hope you
               enjoy it!
             </p>
             <Tab.Container id="projects-tab" defaultActiveKey="primero">
@@ -75,7 +75,7 @@ const Projects = () => {
                   <Nav.Link eventKey="segundo">Curriculum </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="tercero">Quien Soy</Nav.Link>
+                  <Nav.Link eventKey="tercero">About Me</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>

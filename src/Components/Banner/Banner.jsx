@@ -4,19 +4,15 @@ import { useState, useEffect } from "react";
 import hero from "../../Assets/Images/pc.png";
 import "./banner.css";
 import BouncingLetters from "./BouncingLetters";
-import 'animate.css'
+import "animate.css";
 
 const Banner = () => {
-
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Front-end", "Web Developer"];
+  const toRotate = ["Front-end Developer", "Web Developer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
-
-
- 
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -54,15 +50,13 @@ const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="welcome"> Welcome to my portfolio</span>
             <h1>
-            <BouncingLetters/>
+              <BouncingLetters />
               <span className="wrap"> {text}</span>
             </h1>
-              
+
             <p>
-              A junior Front-end Developer living in Valencia, Spain who is
-              searching his first job.
+              A junior Front-end Developer living in Valencia, Spain who is in seek of a new position.
             </p>
-           
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={hero} className="hero" alt="Headder Img" />

@@ -15,8 +15,8 @@ const BackendSkills = () => {
       <Container>
         <div className="b-skills-icon">
           <div className="b-text-container">
-            <h2>Backend skills</h2>
-            <p>This are my Backend skills i'm studying since August 2022.</p>
+            <h2>Back-end skills</h2>
+            <p>These are my Back-end skills I am studying on.</p>
           </div>
 
           <div className="stage-cube-cont">

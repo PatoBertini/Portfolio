@@ -37,3 +37,10 @@ body {
   font-style: normal;
 }
 
+@media (max-width: 480px) {
+  .hero {
+    display: none;
+  }
+
+  
+}

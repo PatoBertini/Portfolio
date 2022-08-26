@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const BouncingLetters = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = ["H","i,"," ","i","'m"," ","P", "a", "t", "r", "i", "c", "i", "o"];
+  const nameArray = ["H","i,"," ","I"," ","a","m"," ","P", "a", "t", "r", "i", "c", "i", "o"];
 
   return (
     <div>
