@@ -55,7 +55,7 @@ const Banner = () => {
             </h1>
 
             <p>
-              A junior Front-end Developer living in Valencia, Spain who is in seek of a new position.
+              A junior Front-end Developer living in Madrid, Spain who is in seek of a new position.
             </p>
           </Col>
           <Col xs={12} md={6} xl={5}>
