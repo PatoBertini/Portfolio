@@ -45,7 +45,7 @@ const Projects = () => {
       title: "Ecommerce Shop",
       description1: "React Js",
       img: p5,
-      inpro : "Work In Progress"
+      link : "https://ecommerce-guitar.netlify.app/"
     },
     {
       title: "Personal Landing Page",
